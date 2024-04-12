@@ -1,0 +1,768 @@
+*{
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.linea{
+    border: solid 2px black;
+    margin-top: 3px;
+}
+
+body{
+    background-color: #333;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    background-color: #333;
+}
+
+.encabezado{
+    width: 100%;
+    height: 120px;
+}
+
+.menu{
+    width: 70%;
+    height: 50px;
+    margin-top: 30px;
+    float: right;
+    text-align: center;
+    background-color: rgb(5,5,5,0.2);
+    border-radius: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.menu a{
+    margin-top: 5px;
+    width: 20%;
+    height: 40px;
+    border-radius: 10px;
+    line-height: 40px;
+    text-decoration: none;
+    float: left;
+    font-family: tahoma;
+    font-weight: bold;
+    font-size: 15px;
+    color: #9cd2d3;
+}
+
+.menu a:hover{
+    background-color: #111;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.submenu li{
+    list-style: none;
+}
+
+.submenu {
+    width: 30%;
+    display: none;
+    position: absolute;
+    background-color: #111;
+    border-radius: 5px;
+    margin-top: 50px;
+    float: right;
+    background-color: rgb(10,10,10,0.4);
+}
+
+.submenu a {
+    height: 60px;
+    width: 100%;
+    margin-top: -5px;
+    display: block;
+    color: #edf2ef;
+    text-decoration: none;
+    text-align: center;
+    font-family: tahoma;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.submenu a:hover {
+    background-color: #9cd2d3;
+    color: black;
+        width: 100%;
+}
+
+.menu-item{
+    float: left;
+}
+
+.menu-item:hover .submenu {
+    display: block;
+}
+
+.namelogo{
+    width: 30%;
+    height: 100px;
+    float: left;
+}
+
+.logo{
+    margin-top: 10px;
+    width: 25%;
+    height: 100px;
+    border-radius: 120px;
+    float: left;
+    margin-left: 30px;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 90px;
+    float: right;
+    margin-right: 10px;
+}
+
+.name{
+    margin-top: 10px;
+    width: 20%;
+    height: 100px;
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.name p{
+    margin-top: 30px;
+    line-height: 40px;
+    font-family: tahoma;
+    font-weight: bold;
+    font-size: 35px;
+    color:  #9cd2d3;
+    border-bottom: solid 5px white;
+}
+
+.name border bottom{
+    width: 100%;
+}
+
+.contimgtext{
+    width: 90%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.texto{
+    width: 50%;
+    height: 500px;
+    float: left;
+    color: white;
+}
+
+.texto p{
+    color: white;
+}
+
+.t1{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.t1 p{
+    font-family: tahoma;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+}
+
+.t2{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    float: left;
+}
+
+.t2 p{
+    font-family: tahoma;
+    font-size: 17px;
+    color: white;
+}
+
+.contimg{
+    width: 50%;
+    height: auto;
+    float: right;
+    margin-top: 20px;
+}
+
+.titulo{
+    width: 100%;
+    height: 50px;
+    float: right;
+    text-align: center;
+    align-items: center;
+
+}
+
+.titulo label{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-family: tahoma;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+
+.imagen{
+    width: 100%;
+    height: 100%;
+    float: right;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.imagen img{
+    width: 50%;
+    height: 300px;
+    border-radius: 600px;
+}
+
+.pie{
+    width: 100%;
+    height: 400px;
+    margin-top: 200px;
+    border-radius: 5px;
+    background-color: rgb(10,10,10,0.3);
+}
+
+.top{
+    width: 100%;
+    height: 20px;
+}
+
+.contactos{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.contactos label{
+    margin-top: 50px;
+    font-family: tahoma;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.encabezados{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    float: right;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.encabezados p{
+    width: 30%;
+    height: 50px;
+    float: left;
+    margin-left: 20px;
+    line-height: 50px;
+    font-family: tahoma;
+    font-size: 30px;
+    font-weight: bold;
+    color: #9cd2d3;
+}
+
+.imgs{
+    width: 100%;
+    height: 100px;
+    margin-top: 130px;
+}
+
+.tel{
+    width: 33%;
+    height: 80px;
+    float: left;
+}
+
+.desc{
+    width: 65%;
+    height: 40px;
+    float: left;
+}
+
+.desc p{
+    font-family: thaoma;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-left: 10px;
+    color: white;
+}
+
+.imgtel{
+    width: 35%;
+    height: 80px;
+    float: left;
+}
+
+.imgtel img{
+    width: 50%;
+    height: 100%;
+    border-radius: 40px;
+    float: right;
+    margin-top: 5px;
+}
+
+.redes{
+    width: 30%;
+    height: 80px;
+    float: left;
+}
+
+.redes img{
+    width: 20%;
+    height: 100%;
+    border-radius: 40px;
+    margin-right: 10px;
+    margin-top: px;
+}
+
+.horario{
+    width: 33%;
+    height: 80px;
+    float: left;
+}
+
+.horario p{
+    width: 50%;
+    font-family: thaoma;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    float: left;
+}
+
+
+// DISEÑO GALERIA
+
+*{
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.columna{
+    flex: 20%;
+    padding: 5px;
+}
+
+.columna img{
+    margin-top: 5px;
+}
+
+.containerg{
+    width: 100%;
+    height: 5000px;
+    background-color: rgb(5,5,5,0);
+}
+
+.pieg{
+    width: 100%;
+    height: 400px;
+    margin-top: 1000px;
+    border-radius: 5px;
+    background-color: rgb(10,10,10,0.3);
+}
+
+// ESTILOS contacto
+
+#contacto .container{
+    background-image: url(../img/img3.jpg);
+    height: 100vh;
+    color: #fff;
+    font-weight: bold;
+}
+
+.container_contact{
+    margin-top: 100px;
+    text-align: center;
+    width: 50%;
+    height: 400px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px red;
+    backdrop-filter: blue(2px);
+    display: flex;
+    flex-direction: column;
+    gap: 1-2rem;
+}
+
+.container_contact{
+ background-image: url(../img/img3.jpg);
+    height: 400px;
+    color: #fff;
+    font-weight: bold;
+}
+
+form{
+    width: 80%;
+    margin: 20px auto;
+    margin-top: 10px;
+}
+
+form input{
+    width: 80%;
+    background-color: rgba(7,12,20,0.4);
+    color: #fff;
+    padding: 5px 2px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+textarea{
+    background-color: rgba(7,12,20,0.4);
+    color: #fff;
+    padding: 5px 2px;
+    font-size: 1,2cm;
+    border-radius: 10px;
+    margin-top: 5px;
+    resize: none;
+}
+
+form input[type="submit"]{
+    width: 100%;
+    color: #fff;
+    background-color: orange;
+    padding: 5px 0;
+}
+
+form input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+//DISEÑO ACERCA DE
+
+.contacerca{
+    width: 100%;
+    height: auto;
+}
+.contimgiz{
+    width: 20%;
+    height: auto;
+    float: left;
+    margin-left: 5px;
+}
+
+.contimgiz img{
+   border-radius: 20px;
+   margin-top: 55px;
+}
+
+.textoacerca{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.textoacerca p{
+    font-family: bonodoty bt;
+    font-size: 20px;
+    color: white;
+    margin-top: 15px;
+}
+
+.textoacerca ol ul li{
+    font-family: bonodoty bt;
+    font-size: 20px;
+    color: white;
+    
+}
+
+.textoacerca li{
+    font-family: bonodoty bt;
+    font-size: 20px;
+    color: white;
+    
+}
+
+.listaac{
+    width: 80%;
+    height: auto;
+}
+
+.tituloac{
+    width: 100%;
+    height: auto;
+}
+
+.tituloac{
+    font-family: bonodoty bt;
+    font-size: 25px;
+    font-weight: bold;
+    color: yellow;
+    margin-top: 200px;
+}
+
+.lineaac{
+    width: 100%;
+    border:solid 2px white;
+   
+}
+.contimgder{
+    width: 20%;
+    height: auto;
+    float: right;
+    margin-right: 5px;
+}
+
+.contimgder img{
+   border-radius: 20px;
+   margin-top: 55px;
+}
+
+.pieac{
+    width: 100%;
+    height: 400px;
+    margin-top: 5700px;
+    border-radius: 5px;
+    background-color: rgb(10,10,10,0.3);
+}
+
+//MEDIA QUERY
+
+@media (max-width: 800px){
+    .columna{
+        flex: 50%;
+    }
+}
+
+@media (max-width: 400px){
+    .columna{
+        flex: 50%;
+    }
+    .container{
+        width: 100%;
+    }
+    .imga img{
+        display: none;
+    }
+     .imga2 img{
+        display: none;
+    }
+    .imga{
+        width: 0%;
+    }
+    .imga2{
+        width: 0%;
+    }
+    .imgsiz{
+        width: 0%;
+    }
+    .logo{
+        width: 40%;
+        height: 50%;
+        margin-top: 40px;
+    }
+    .name{
+        width: 25%;
+    }
+    .name p{
+        font-size: 15px;
+    }
+    .menu{
+        width: 60%;
+    }
+    .menu a{
+        font-size: 8px;
+        margin-left: 0;
+    }
+    .contimgtext{
+        height: auto;
+    }
+    .texto{
+        width: 100%;
+        height: auto;
+    }
+    .contimg{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .titulo label{
+        font-size: 25px;
+    }
+    .t1 p{
+        font-size: 20px;
+    }
+    .imagen img{
+        width: 60%;
+        height: 210px;
+        margin-top: -30px;
+    }
+    .linea{
+        width: 100%;
+    }
+    .encabezado{
+        width: 100%;
+    }
+    .pie{
+        height: 250px;
+    }
+    .contactos label{
+    font-size: 20px;
+    }
+    .encabezados{
+        margin-top: 10px;
+    }
+    .encabezados {
+        text-align: center;
+    }
+    .encabezados p{
+        width: 27%;
+        height: 50px;
+        float: left;
+        margin-left: px;
+        line-height: 50px;
+        font-size: 10px;
+    }
+    .imgs{
+        margin-top: 15px;
+    }
+    .redes{
+        width: 33%;
+    }
+    .redes img{
+        width: 20%;
+        height: 35%;
+        margin-right: 2px;
+        margin-top: 10px;
+    }
+    .tel{
+        width: 33%;
+    }
+    .tel img{
+        width: 80%;
+        height: 50%;
+    }
+    .horarios{
+        width: 33%;
+    }
+    .desc p{
+        font-size: 10px;
+        margin-top: -15px;
+    }
+    .horario p{
+        width: 100%;
+        margin-top: 8px;
+        font-size: 10px;
+    }
+    .container_contact{
+        width: 100%;
+        margin-top: 150px;
+    }
+    .container_contact textarea{
+        width: 100%;
+    }
+    .pieac{
+        margin-top: 3200px;
+        height: 200px;
+    }
+
+    .pieg{
+        margin-top: 21800px;
+        height: 200px;
+    }
+    .textoacerca{
+        width: 90%;
+        height: auto;
+        float: left;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    .textoacerca p{
+        font-family: bonodoty bt;
+        font-size: 10px;
+        color: white;
+        margin-top: 15px;
+    }
+
+    .textoacerca ol ul li{
+        font-family: bonodoty bt;
+        font-size: 10px;
+        color: white;
+        
+    }
+
+    .textoacerca li{
+        font-family: bonodoty bt;
+        font-size: 10px;
+        color: white;
+    }
+    .contimgiz{
+        width: 0%;
+        height: auto;
+        float: left;
+        margin-left: 5px;
+    }
+
+    .contimgiz img{
+       border-radius: 10px;
+       margin-top: 30px;
+    }
+    .contimgder{
+        width: 0%;
+        height: auto;
+        float: right;
+        margin-right: 5px;
+    }
+
+    .contimgder img{
+       border-radius: 10px;
+       margin-top: 30px;
+    }
+    .tituloac{
+        font-family: bonodoty bt;
+        font-size: 15px;
+        font-weight: bold;
+        color: yellow;
+        margin-top: 100px;
+    }
+
+    .submenu {
+        width: 80%;
+    }
+
+    .submenu a {
+        height: 60px;
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .submenu a:hover {
+        background-color: #9cd2d3;
+        color: black;
+            width: 100%;
+    }
+    .menu{
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+}
